@@ -1,0 +1,58 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+#boton-login {
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+#boton-login:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    opacity: .99;
+}
+
+.icono-apps {
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display: inline-flex;
+    height: 30px;
+    opacity: .55;
+    vertical-align: middle;
+    width: 30px;
+}
+
+nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
