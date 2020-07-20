@@ -2,6 +2,35 @@ body {
     font-family: arial,sans-serif;
 }
 
+.botones {
+    text-align: center;
+}
+
+.botones input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    margin: 4px;
+    min-width: 54px;
+    padding: 0 16px;
+}
+
+.botones input:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    color: #222;
+}
+
+.botones input:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
 #boton-login {
     background: -webkit-linear-gradient(top, #4387fd, #4683ea);
     border: 1px solid #4285f4;
@@ -20,6 +49,21 @@ body {
     opacity: .99;
 }
 
+.buscar {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 40px;
+    margin: 25px auto;
+    text-align: center;
+    width: 465px;
+}
+
+.buscar:hover {
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
 .icono-apps {
     background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-position: -132px -38px;
@@ -29,6 +73,37 @@ body {
     opacity: .55;
     vertical-align: middle;
     width: 30px;
+}
+
+.icono-buscar {
+    display: inline;
+    padding-right: 5px;
+    vertical-align: middle;    
+}
+
+.icono-microfono {
+    display: inline;
+    vertical-align: middle;
+}
+
+.logo {
+    padding-top: 92px;
+    text-align: center;
+}
+
+.lupa {
+    color: #9aa0a6;
+    height: 20px;
+    opacity: .4;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.microfono {
+    cursor: pointer;
+    height: 24px;
+    vertical-align: middle;
+    width: 24px;
 }
 
 nav {
@@ -55,4 +130,19 @@ nav ul li a {
 nav ul li a:hover {
     opacity: .85;
     text-decoration: underline;
+}
+
+.texto-buscar {
+    display: inline;
+    line-height: 40px;
+}
+
+.texto-buscar input {
+    border: none;
+    font-size: 16px;
+    width: 370px;
+}
+
+.texto-buscar input:focus {
+    outline: 0;
 }
